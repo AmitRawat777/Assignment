@@ -232,7 +232,60 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     color: #726c54;
     background: #f6f0e4;
+}
+
+.sec-raw-2{
+    padding: 25px 10px;
+    display: flex;
+}
+
+.sec-raw-2 .member h2{
+    font-size: 100px;
+    font-family: monospace;
+}
+
+.sec-raw-2 .member p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sec-raw-2 .class h2{
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+.sec-raw-2 .class p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sec-raw-2 .country h2{
+    font-size: 100px;
+    font-family: monospace;
+}
+
+.sec-raw-2 .country p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.member{
+    padding-right: 8%;
+    border-right: 8px dashed rgb(114, 108, 84);
+}
+
+.class{
+    padding-right: 8%;
+    border-right: 8px dashed rgb(114, 108, 84);
+}
+
+.sec-raw-3{
+    background:rgba(153, 129, 26, 0.4);;
+    height: 130px;
 }
