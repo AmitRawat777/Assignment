@@ -1,45 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     background-color: rgba(153, 129, 26, 0.4);
 }
+
 .img-logo {
     display: flex;
 }
-.img-logo img{
+
+.img-logo img {
     border-image: round;
     border-radius: 50%;
     width: 100px;
     margin-left: 30px;
 }
-.img-logo p{
+
+.img-logo p {
     margin: auto;
     font-weight: bold;
     font-size: 28px;
     font-family: system-ui;
     color: rgb(47 53 21 / 68%);
 }
-.menu{
+
+.menu {
     width: 70%;
 }
-.menu ul li a{
+
+.menu ul li a {
     font-size: 30px;
     font-weight: 800;
     color: rgb(47 53 21 / 68%);
     text-decoration: none;
 }
-.menubar{
+
+.menubar {
     display: flex;
     list-style: none;
     width: 95%;
     justify-content: space-evenly;
     margin-left: 300px;
 }
-.section-1{
+
+.section-1 {
     display: flex;
     align-items: center;
     width: 80%;
@@ -47,13 +55,16 @@ header{
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.left-sec-1{
+
+.left-sec-1 {
     width: 48%;
 }
-.left-sec-1 img{
+
+.left-sec-1 img {
     display: block;
     margin: auto;
 }
+
 .right-sec-1 {
     width: 30%;
     color: rgb(47 53 21 / 68%);
@@ -61,11 +72,12 @@ header{
     margin-left: 120px;
 }
 
-.right-sec-1 h1{
+.right-sec-1 h1 {
     font-family: sans-serif;
     font-size: 100px;
 }
-.right-sec-1 .join{
+
+.right-sec-1 .join {
     font-size: 28px;
     color: rgba(250, 247, 244, 0.959);
     background-color: rgb(47 53 21 / 68%);
@@ -75,14 +87,14 @@ header{
     font-weight: bold;
 }
 
-.right-sec-1 .join a{
+.right-sec-1 .join a {
     font-size: 28px;
     color: rgba(250, 247, 244, 0.959);
     font-weight: bold;
     text-decoration: none;
 }
 
-.right-sec-1 p{
+.right-sec-1 p {
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -90,11 +102,12 @@ header{
     font-family: system-ui;
 }
 
-.our-team{
+.our-team {
     background-color: rgba(153, 129, 26, 0.4);
     padding: 20px 10px;
 }
-.our-team h1{
+
+.our-team h1 {
     color: rgb(47 53 21 / 68%);
     font-size: 60px;
     font-family: system-ui;
@@ -102,14 +115,16 @@ header{
     text-align: center;
     padding: 20px;
 }
-.our-team p{
+
+.our-team p {
     color: rgb(47 53 21 / 68%);
     font-size: 30px;
     text-align: center;
     width: 45%;
     margin: auto;
 }
-.founders{
+
+.founders {
     display: flex;
     justify-content: space-evenly;
     background-color: #efe5d1;
@@ -117,33 +132,41 @@ header{
     padding: 20px;
     text-align: center;
 }
-.founders img{
+
+.founders img {
     width: 240px;
     margin-top: 40px;
     height: 50%;
     border-radius: 50%;
 }
-.founders h3{
+
+.founders h3 {
     padding: 10px;
     font-size: 30px;
 }
-.founders p{
+
+.founders p {
     font-size: 25px;
 }
-.empty{
+
+.empty {
     background-color: rgba(153, 129, 26, 0.4);
     height: 100px;
 }
-.dance-img{
+
+.dance-img {
     width: 400px;
     border: 2px solid rgb(241 241 223);
     border-radius: 50%;
 }
-.right-sec-1 h2, h3{
+
+.right-sec-1 h2,
+h3 {
     font-family: sans-serif;
     font-size: 66px;
 }
-.right-sec-1 .help-text{
+
+.right-sec-1 .help-text {
     font-size: 40px;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -151,33 +174,37 @@ header{
     font-family: system-ui;
 }
 
-.back-wrap{
-    transform: skew(0deg,-6deg) translateY(50px);
+.back-wrap {
+    transform: skew(0deg, -6deg) translateY(50px);
     padding: 20px 80px;
     transform-origin: top left;
     background-color: #efe5d1;
 }
-.back-raw{
+
+.back-raw {
     display: flex;
     align-items: center;
-    transform: skew(0deg,6deg);
+    transform: skew(0deg, 6deg);
     transform-origin: top left;
 }
-.background{
+
+.background {
     padding: 100px 0 100px 0;
 }
-.left-sec-1 .dance-img1{
+
+.left-sec-1 .dance-img1 {
     width: 400px;
     border: 2px solid rgb(241 241 223);
     border-radius: 50%;
     margin-left: 450px;
 }
-.section-2{
+
+.section-2 {
     text-align: center;
     margin: auto;
 }
 
-.section-2 .left-sec-1{
+.section-2 .left-sec-1 {
     color: rgb(47 53 21 / 68%);
     font-size: 50px;
     background-color: rgba(153, 129, 26, 0.4);
@@ -186,7 +213,7 @@ header{
     font-family: sans-serif;
 }
 
-.section-2 .left-sec-1 p{
+.section-2 .left-sec-1 p {
     font-size: 40px;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -196,12 +223,12 @@ header{
     padding-bottom: 50px;
 }
 
-.section-2 .left-sec-1 h2{
+.section-2 .left-sec-1 h2 {
     margin-bottom: 50px;
     padding-top: 50px;
 }
 
-.section-2 .sec-raw-2{
+.section-2 .sec-raw-2 {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
