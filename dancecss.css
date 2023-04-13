@@ -151,19 +151,19 @@ header{
     font-family: system-ui;
 }
 
-.tilted-bg-wrapper{
+.back-wrap{
     transform: skew(0deg,-6deg) translateY(50px);
     padding: 20px 80px;
     transform-origin: top left;
     background-color: #efe5d1;
 }
-.tilted-bg-row{
+.back-raw{
     display: flex;
     align-items: center;
     transform: skew(0deg,6deg);
     transform-origin: top left;
 }
-.tilted-bg{
+.background{
     padding: 100px 0 100px 0;
 }
 .left-sec-1 .dance-img1{
@@ -171,4 +171,41 @@ header{
     border: 2px solid rgb(241 241 223);
     border-radius: 50%;
     margin-left: 450px;
+}
+.section-2{
+    text-align: center;
+    margin: auto;
+}
+
+.section-2 .left-sec-1{
+    color: rgb(47 53 21 / 68%);
+    font-size: 50px;
+    background-color: rgba(153, 129, 26, 0.4);
+    margin: auto;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.section-2 .left-sec-1 p{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 800px;
+    margin: auto;
+    font-family: system-ui;
+    padding-bottom: 50px;
+}
+
+.section-2 .left-sec-1 h2{
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.section-2 .sec-raw-2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+    color: #726c54;
+    background: #f6f0e4;
 }
